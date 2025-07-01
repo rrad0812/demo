@@ -1,7 +1,7 @@
 {
     "id": "module_app_settings",
     "name": "Podešavanja",
-    "type": "custom",
+    "type": "system",
     "endpoint": "/admin/app-settings",
     "properties": {
         "description": "Globalna podešavanja sistema"

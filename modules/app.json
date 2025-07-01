@@ -33,7 +33,7 @@
             "display_order": 4
         },
         {
-            "target_group_id": "group_sistem",
+            "target_group_id": "group_system",
             "type": "group",
             "display_name": "System",
             "display_order": 5

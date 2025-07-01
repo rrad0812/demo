@@ -1,5 +1,5 @@
 {
-    "id": "module_products_with_categories_report",
+    "id": "module_product_with_categories_report",
     "name": "Proizvodi po kategorijama",
     "type": "report",
     "can_read": true,
