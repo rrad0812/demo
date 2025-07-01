@@ -1,0 +1,16 @@
+{
+    "id": "group_system",
+    "name": "Sistem",
+    "type": "group",
+    "properties": {
+        "icon": "fa-cogs"
+    },
+    "sub_modules":[
+        {
+            "target_module_id": "module_app_settings",
+            "type": "custom",
+            "display_name": "Podešavaje aplikacije",
+            "display_order": 1
+        }
+    ]
+}

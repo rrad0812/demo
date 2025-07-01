@@ -1,0 +1,34 @@
+{
+    "id": "group_catalogs",
+    "name": "Katalozi",
+    "type": "group",
+    "properties": {
+        "icon": "fa-list"
+    },
+    "sub_modules":[
+        {
+            "target_module_id": "module_products",
+            "type": "table",
+            "display_name": "Proizvodi",
+            "display_order": 1
+        },
+        {
+            "target_module_id": "module_users",
+            "type": "table",
+            "display_name": "Korisnici",
+            "display_order": 2
+        },
+        {
+            "target_module_id": "module_categories",
+            "type": "table",
+            "display_name": "Kategorije proizvoda",
+            "display_order": 1
+        },
+        {
+            "target_module_id": "module_product_categories",
+            "type": "table",
+            "display_name": "Proizvodi po kategorijama",
+            "display_order": 4
+        }
+    ]
+}
