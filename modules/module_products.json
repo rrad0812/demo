@@ -50,7 +50,7 @@
         {
             "target_module_id": "module_comments",
             "parent_key_field": "id",
-            "child_foreign_key_field": "commnets_id",
+            "child_foreign_key_field": "parent_id",
             "display_name": "Komentari proizvoda",
             "display_order": 1
         },
