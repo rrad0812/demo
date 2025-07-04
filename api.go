@@ -38,6 +38,7 @@ func (s *APIServer) InitRoutes() {
 	s.router.HandleFunc("/api/modules/{moduleID}", s.CreateRecord).Methods("POST")
 	s.router.HandleFunc("/api/modules/{moduleID}/{recordID}", s.UpdateRecord).Methods("PUT")
 	s.router.HandleFunc("/api/modules/{moduleID}/{recordID}", s.DeleteRecord).Methods("DELETE")
+	s.router.HandleFunc("/rpc", s.HandleRPC).Methods("POST")
 }
 
 // Start pokreće HTTP server.
